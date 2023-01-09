@@ -1,0 +1,14 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+root 3 tür
+
+root un sağında 3 ten büyük sayılar, solunda 3 ten küçük sayılar bulunur.
+
+
+             3                  
+         /       \           7>3 olması sebebiyle 7 sağa yazılır, 1<3 olması sebebiyle 7 sola yazılır.
+       1          7            
+     /  \        /  \      0<1 olması sebebiyle 0 sola yazılır, 2>1 olması sebebiyle 2 sağa yazılır, 5<7 olması sebebiyle 5 sola yazılır, 8>7 olması sebebiyle sağa yazılır
+    0    2      5    8  
+               / \     \    4<5 olması sebebiyle 4 sola yazılır, 6>5 olması sebebiyle 6 sağa yazılır, 8>9 olması sebebiyle 9 sağa yazılır. 
+              4   6     9   
